@@ -1,0 +1,16 @@
+{
+    "model_name": "DeepfakeCNN",
+    "architecture": "3-block 2D CNN",
+    "input_features": "Log-Mel Spectrogram",
+    "mel_bins": 128,
+    "time_frames": 501,
+    "classes": {
+        "0": "Bona fide",
+        "1": "Spoof"
+    },
+    "best_epoch": 5,
+    "development_macro_f1": 0.7592148229005636,
+    "optimized_threshold": 0.9500000000000002,
+    "development_optimized_macro_f1": 0.9049983016291359,
+    "development_balanced_accuracy": 0.8755776778708502
+}

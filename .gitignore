@@ -1,0 +1,31 @@
+# Python environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# Temporary files
+*.tmp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dataset and audio recordings
+datasets/
+test_audio/
+*.wav
+*.flac
+
+# Training outputs
+outputs/
